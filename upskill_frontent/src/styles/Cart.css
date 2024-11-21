@@ -1,0 +1,24 @@
+/* Cart.css */
+.cart-container {
+    padding: 20px;
+  }
+  
+  .cart-header {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .cart-user {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .cart-courses {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .cart-courses li {
+    padding: 5px 0;
+  }
+  

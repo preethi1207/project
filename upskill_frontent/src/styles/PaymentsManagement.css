@@ -1,0 +1,94 @@
+/* 
+
+
+
+.dashboard {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.summary-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.summary-card {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 200px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.summary-card h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.summary-card p {
+    margin: 10px 0 0;
+    font-size: 24px;
+}
+
+.payments-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.payments-table th,
+.payments-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.payments-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+} */
+
+
+
+
+.dashboard {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.payments-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.payments-table th,
+.payments-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.payments-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.payments-table tr:nth-child(even) {
+    background-color: #f9f9f9; /* Zebra striping for better readability */
+}
+
+.payments-table tr:hover {
+    background-color: #f1f1f1; /* Highlight row on hover */
+}
+
+.payments-table td {
+    font-size: 16px;
+}
