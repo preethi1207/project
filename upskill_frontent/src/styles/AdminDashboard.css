@@ -1,0 +1,84 @@
+.admin-dashboard {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    box-sizing: border-box;
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .management-section {
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .management-section h3 {
+    font-size: 20px;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .management-section input {
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 200px;
+    margin-bottom: 10px;
+  }
+  
+  .management-section button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .management-section button:hover {
+    background-color: #0056b3;
+  }
+  
+  .management-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .management-section li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+    padding: 8px;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+  }
+  
+  .management-section li button {
+    background-color: #28a745;
+    margin-left: 10px;
+  }
+  
+  .management-section li button:last-child {
+    background-color: #dc3545;
+  }
+  
+  .management-section li button:hover {
+    opacity: 0.9;
+  }
+  
+  .management-section input[type='text'] {
+    margin-bottom: 5px;
+  }
+  
